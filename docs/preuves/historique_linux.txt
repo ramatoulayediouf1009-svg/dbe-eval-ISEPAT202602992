@@ -1,0 +1,112 @@
+    1  history -w
+    2  util1
+    3  who
+    4  pwd
+    5  ls /
+    6  more /etc/passwrd
+    7  more /etc
+    8  cat
+    9  git --version
+   10  javac -version
+   11  sudo apt update
+   12  git --version
+   13  javac -version
+   14  sudo apt install default-jdk
+   15  javac -version
+   16  git config --global user.name`ramatoulaye Diouf
+   17  git config --global user.name Ramatoulaye Diouf
+   18  git config --global user.email ramatoulayediouf1009gmail.com
+   19  git config --global --list
+   20  uname -s
+   21  cat /etc/os-relase
+   22  whoami
+   23  echo $0
+   24  pwd
+   25  cd documents
+   26  pwd
+   27  ls
+   28  mkdir Devoirlinux
+   29  cd DevoirLinux
+   30  cd Devoirlinux
+   31  touch exercices.txt
+   32  echo "Bonjour linux"> exercice.txt
+   33  cat exercice.txt
+   34  cp exercice.txt copie.txt
+   35  ls
+   36  mv copie.txt nouveau.txt
+   37  ls
+   38  cd
+   39  rm exercice.txt
+   40  r--
+   41  rm nouveau.txt
+   42  ls
+   43  rm Devoirlinux
+   44  ls
+   45  clear 
+   46  whonami
+   47  whoami
+   48  mkdire -p ~/dbe-eval-ramatoulaye
+   49  mkdir -p ~/dbe-eval-ramatoulaye
+   50  cd ~/dbe-eval-ramatoulaye
+   51  mkdir src scripts logs docs rapports rendus
+   52  mkdir docs/preuves
+   53  echo `export MATRICULE=ISEPAT20262992`>> ~/.bashrc
+   54  echo `export HISTTIMEFORMAT="%F %T "`>> ~/.bashrc
+   55  source ~/.bashrc
+   56  echo "$MATRICULE"
+   57  grep MATRICULE ~/.bashrc
+   58  echo `export MATRICULE=ISEPAT20262992`>> ~/.bashrc
+   59  source ~/.bashrc
+   60  echo "$MATRICULE"
+   61  export MATRICULISEPAT
+   62  export MATRICULE=ISEPAT2026992
+   63  echo cd
+   64  mv dbe-eval-ramatoulaye dbe-eval-ISEPAT20262992
+   65  cd ~.
+   66  cd
+   67  ls
+   68  mv dbe-eval-ramatoulaye dbe-eval-ISEPAT20262992
+   69  cd ~/dbe-eval-ISEPAT20262992
+   70  scrip -q --timing=docs/preuves/linux.tm docs/preuves/linux.log
+   71  script -q --timing=docs/preuves/linux.tm docs/preuves/linux.log
+   72  nano scr/GenerateurLogs.java
+   73  sudo apt install open-vm-tools-desktop
+   74  sudo reboot
+   75  cd ~/dbe-eval-ISEPAT20262992
+   76  nano scr/GenerateurLogs.java
+   77  mkdir -p out && javac -d out src/GenerateurLogs.java
+   78  java -cp out
+   79  java -cp out GenerateurLogs
+   80  echo &?
+   81  java -cp out GenerateurLogs ISEPAT202602992 2000 > logs/access.log
+   82  wc -l logs/access.log
+   83  head -n 1 logs/access.log
+   84  grep -c "ERROR" logs/access.log
+   85  [200~grep -c "WARN" logs/access.log~
+   86  [200~sudo apt install grep~
+   87  whoami
+   88  su -
+   89  su
+   90  ls
+   91  history
+   92  tar -czf rendus/ISEPAT202602992.tar.gz docs logs out rapports scripts src
+   93  ls -lh rendus/
+   94  ls scripts/
+   95  nano scripts/analyse.sh
+   96  [200~bash -n scripts/analyse.sh~
+   97  /bin/bash scripts/analyse.sh logs/access.log --top 3
+   98  export MATRICULE=ISEPAT202602992
+   99  /bin/bash scripts/analyse.sh logs/access.log --top 3
+  100  ls rapports
+  101  /bin/bash scripts/analyse.sh
+  102  /bin/bash scripts/analyse.sh fichier-inexistant.log
+  103  touch vide.log
+  104  /bin/bash scripts/analyse.sh vide.log
+  105  nano docs/linux.md
+  106  nano scripts/surveille.sh
+  107  nohup /bin/bash scripts/surveille.sh > logs/surveille.out 2>&1 &
+  108  pgrep -af surveille.sh
+  109  ps -p 3614 -o pid,ppid,stat,etime,cmd
+  110  kill -TERM 3614
+  111  tail -n 3 logs/surveillance.log
+  112  history > docs/preuves/historique_linux.txt

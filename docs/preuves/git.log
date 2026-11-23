@@ -1,0 +1,184 @@
+Script started on 2026-11-23 15:40:40+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mls -la ~/.ss[27m[7mh[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ls -la ~/.ssh
+[?2004ltotal 8
+drwx------  2 ramatoulaye ramatoulaye 4096 Nov  3 08:52 [0m[01;34m.[0m
+drwxr-x--- 19 ramatoulaye ramatoulaye 4096 Nov 23 12:49 [01;34m..[0m
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mssh-keygen -[27m[7mt[27m[7m ed25519[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ssh-keygen -t ed25519
+[?2004lGenerating public/private ed25519 key pair.
+Enter file in which to save the key (/home/ramatoulaye/.ssh/id_ed25519): oui
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in oui
+Your public key has been saved in oui.pub
+The key fingerprint is:
+SHA256:L/TATYIj42M/9C7GflNiRdwZ6M7DRw3/ZFxHrQCjEl0 ramatoulaye@ramatoulaye-virtual-machine
+The key's randomart image is:
++--[ED25519 256]--+
+|      .. oE+.o .o|
+|       o..+.=   +|
+|    o + oo.  = oo|
+|   . o + +o . + +|
+|    + . S=..   + |
+|   . + oo+* .   .|
+|     .o.oooo     |
+|      +oo.       |
+|     o.o..       |
++----[SHA256]-----+
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mls ~/.ssh[27mls ~/.ssh
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mls -la ~/.ss[27m[7mh[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ls -la ~/.ssh
+[?2004ltotal 8
+drwx------  2 ramatoulaye ramatoulaye 4096 Nov  3 08:52 [0m[01;34m.[0m
+drwxr-x--- 19 ramatoulaye ramatoulaye 4096 Nov 23 12:49 [01;34m..[0m
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mssh-keygen -[27m[7mt[27m[7m ed25519 -f ~/.ssh/id_ed25519[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519
+[?2004lGenerating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase): 
+
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mls ~/.ssh[27mls ~/.ssh
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mls -la ~/.ss[27m[7mh[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ls -la ~/.ssh
+[?2004ltotal 8
+drwx------  2 ramatoulaye ramatoulaye 4096 Nov  3 08:52 [0m[01;34m.[0m
+drwxr-x--- 19 ramatoulaye ramatoulaye 4096 Nov 23 12:49 [01;34m..[0m
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mssh-keygen -[27m[7mt[27m[7m ed25519 -f /home/ramatoulaye/.ssh/id_ed25519 -N ""[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ssh-keygen -t ed25519 -f /home/ramatoulaye/.ssh/id_ed25519 -N ""
+[?2004lGenerating public/private ed25519 key pair.
+Your identification has been saved in /home/ramatoulaye/.ssh/id_ed25519
+Your public key has been saved in /home/ramatoulaye/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:YqLFWTAWQXjIVTut9rwkUwNi8mZrATnv9naANmphtec ramatoulaye@ramatoulaye-virtual-machine
+The key's randomart image is:
++--[ED25519 256]--+
+| . =O+.          |
+|  +o.o o         |
+|  =.o = .        |
+|   O.+ +         |
+|   .@o= S        |
+|  o*=*o= .       |
+| ..+=+o.+        |
+|  oo .E+..       |
+| .   ....        |
++----[SHA256]-----+
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ^[[200~cat ~/.ssh/id_ed25519.pub~vv[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[7mcat ~/.ssh/i[27m[7md[27m[7m_ed25519.pub[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ cat ~/.ssh/id_ed25519.pub
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHc/cHdzQyLPdne9BFjXwQOTqr/Fklu33EXPQzdWpnC0 ramatoulaye@ramatoulaye-virtual-machine
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [K]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [K]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [K]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ^[[200~git config --global user.name "Ramatoulaye Diouf"~
+[?2004l[200~git: command not found
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global user.name[27m[7m [27m[7m"Ramatoulaye Diouf"[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global user.name "Ramatoulaye Diouf"
+[?2004lwarning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ^[[200~git config --global --replace-all user.name "Ramatoulaye Diouf"~[7mgit config --global --replace-all user.name "Ramatoula[27m[7my[27m[7me Diouf"[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"V[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"~git config --global --replace-all user.name "Ramatoulaye[1P Diouf"V[A[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [C[C[C[C[C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"~git config --global --replace-all user.name "Ramatoulaye [1PDiouf"V[A[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [C[C[C[C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"~git config --global --replace-all user.name "Ramatoulaye D[1Piouf"V[A[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [C[C[C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"~git config --global --replace-all user.name "Ramatoulaye Di[1Pouf"V[A[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [C[C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"~git config --global --replace-all user.name "Ramatoulaye Dio[1Puf"V[A[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [C[Cgit config --global --replace-all user.name "Ramatoulaye Diouf"~git config --global --replace-all user.name "Ramatoulaye Diouf[2P"V[A[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[K
+[?2004lerror: wrong number of arguments, should be from 2 to 3
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [K]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ ^[[200~git config --global --replace-all user.name "Ramatoulaye Diouf"~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit config --global --replace[27m[7m-[27m[7mall user.name "Ramatoulaye Diouf"[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global --replace-all user.name "Ramatoulaye Diouf"
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global user.emai[27m[7ml[27m[7m "ramatoulayediouf1009@gmail.com"[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global user.email "ramatoulayediouf1009@gmail.com"
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global init.defa[27m[7mu[27m[7mltBranch main[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global init.defaultBranch main
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global gpg.forma[27m[7mt[27m[7m ssh[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global gpg.format ssh
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global user.sign[27m[7mi[27m[7mngkey ~/.ssh/id_ed25519.pub[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global user.signingkey ~/.ssh/id_ed25519.pub
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global commit.gp[27m[7mg[27m[7msign true[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global commit.gpgsign true
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global tag.gpgSi[27m[7mg[27m[7mn true[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git config --global tag.gpgSign true
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit config --global --list[27mgit config --global --list
+[?2004l[?1h=user.name=Ramatoulaye Diouf[m
+user.email=ramatoulayediouf1009@gmail.com[m
+user.signingkey=/home/ramatoulaye/.ssh/id_ed25519.pub[m
+init.defaultbranch=main[m
+gpg.format=ssh[m
+commit.gpgsign=true[m
+tag.gpgsign=true[m
+[K[?1l>[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [K]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [K]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit init[27mgit init
+[?2004lInitialized empty Git repository in /home/ramatoulaye/dbe-eval-ISEPAT20262992/.git/
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mnano .gitignore[27mnano .gitignore
+[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                               .gitignore                                         [1;95H(B[m[42d(B[0;7m^G(B[m Help[42;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[42;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[43;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;57H(B[0;7m*[41d(B[m[K[1;95H[2dout/[3d*.class[4dlogs/*[?12l[?25h[?25l[42;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[65G        (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: .gitignore                                                                  [41;31H(B[m[?12l[?25h[?25l[41;41H[1K (B[0;7m[ Writing... ](B[m[K[1;57H(B[0;7m [95G(B[m[41;40H(B[0;7m[ Wrote 3 lines ](B[m[42;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut    [65G(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste        (B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line[?12l[?25h[4;7H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mdocs/[m
+	[31moui[m
+	[31moui.pub[m
+	[31mrapports/[m
+	[31mrendus/[m
+	[31mscripts/[m
+	[31msrc/[m
+	[31mvide.log[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mls -l oui oui.pub vide.log[27mls -l oui oui.pub vide.log
+[?2004l-rw------- 1 ramatoulaye ramatoulaye 444 Nov 23 15:46 oui
+-rw-r--r-- 1 ramatoulaye ramatoulaye 121 Nov 23 15:46 oui.pub
+-rw-rw-r-- 1 ramatoulaye ramatoulaye   0 Nov 23 14:47 vide.log
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mrm -f oui oui.pub vide.log[27mrm -f oui oui.pub vide.log
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mdocs/[m
+	[31mrapports/[m
+	[31mrendus/[m
+	[31mscripts/[m
+	[31msrc/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit status[27m[1Pgit statu[K[K[K[K[K[K[K[K[K[7mgit add src[27mgit add src
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit commit -m "Ajout du génér[27m[7ma[27m[7mteur de logs"[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git commit -m "Ajout du générateur de logs"
+[?2004l[main (root-commit) bfc43aa] Ajout du générateur de logs
+ 1 file changed, 44 insertions(+)
+ create mode 100644 src/GenerateurLogs.java
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit add scripts[27mgit add scripts
+[?2004l[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ [7mgit commit -m "Ajout des scri[27m[7mp[27m[7mts d'analyse et surveillance"[27m[A]0;ramatoulaye@ramatoulaye-virtual-machine: ~/dbe-eval-ISEPAT20262992[01;32mramatoulaye@ramatoulaye-virtual-machine[00m:[01;34m~/dbe-eval-ISEPAT20262992[00m$ git commit -m "Ajout des scripts d'analyse et surveillance"
+[?2004l[main 9d3056e] Ajout des scripts d'analyse et surveillance
+ 2 files changed, 99 insertions(+)
+ create mode 100644 scripts/analyse.sh
+ create mode 100644 scripts/surveille.sh
+[?2004h]0;ramatoulaye@ramatoulaye-virtual-machine: ~/
