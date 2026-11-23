@@ -3,7 +3,7 @@ set -euo pipefail
 
 usage() {
     echo "Usage : bash scripts/analyse.sh <fichier.log> [--top N]" >&2
-}
+    echo "Exemple : bash scripts/analyse.sh logs/access.log --top 5" >&2
 
 if [[ $# -lt 1 || $# -gt 3 ]]; then
     usage
