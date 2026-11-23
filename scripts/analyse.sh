@@ -89,3 +89,13 @@ RAPPORT="rapports/rapport_${MATRICULE}_${DATE}.txt"
 } > "$RAPPORT"
 
 echo "Rapport créé : $RAPPORT"
+compter_par_heure() {
+       if [[ ! -f "$1" ]]; then
+        echo "Fichier introuvable"
+        return 2
+    fi
+ echo "Nombre de requêtes par heure :"
+    awk '{print substr($4,14,2)}' "$1" | sort | uniq -c
+   echo "Total des heures analysées : $(awk '{print substr($4,14,2)}' "$1" | wc -l)"
+}
+
